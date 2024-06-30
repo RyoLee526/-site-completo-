@@ -99,7 +99,7 @@ footer {
 	padding: 1.5rem;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 12rem;
+	margin-top: 1rem;
 	max-width: 80%;
 	padding-top: 3rem;
 	border-radius: 20px;
@@ -112,7 +112,7 @@ footer {
 		padding: 1.5rem;
 		text-align: center;
 		margin: 0 auto;
-		margin-top: 6rem;
+		margin-top: 1rem;
 		max-width: 80%;
 		padding-top: 3rem;
 		border-radius: 20px;
@@ -126,6 +126,10 @@ h1 {
 
 h2 {
 	font-size: 1.9rem;
+}
+
+h2#titulo-topo{ /*para identificar o ID*/
+	font-size: 3rem;
 }
 
 h3 {
@@ -278,7 +282,6 @@ figure {
 #grid-conteudo-corpo {
 	text-align: center;
 	border-radius: 20px;
-
 }
 
 .grid-corpo {
@@ -372,6 +375,18 @@ input {
 	margin: 0 auto;
 	max-width: 100%;
 	padding-top: 15rem;
+}
+
+@media(min-width: 300px) and (max-width:850px){
+	.conteudo-corpo {
+		font-size: 1.6rem;
+		background: linear-gradient(to right, #0000CD, #00BFFF);
+		padding: 1.5rem;
+		text-align: justify;
+		margin: 0 auto;
+		max-width: 100%;
+		padding-top: 8rem;
+}
 }
 
 
