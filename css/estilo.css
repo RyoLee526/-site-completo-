@@ -126,10 +126,17 @@ h1 {
 
 h2 {
 	font-size: 1.9rem;
+	text-align: center;
 }
 
-h2#titulo-topo{ /*para identificar o ID*/
+h2#titulo-topo {
+	/*para identificar o ID*/
 	font-size: 3rem;
+}
+
+h2.titulo-corpo{
+	font-size: 2.5rem;
+	color: rgb(0, 0, 155);
 }
 
 h3 {
@@ -140,11 +147,17 @@ h4 {
 	font-size: 1.6rem;
 }
 
-
-/*controles de imagens*/
 figure {
 	text-align: center;
 }
+
+.tecno {
+	color: #000;
+	text-shadow: none;
+}
+
+
+/*controles de imagens*/
 
 #logo-topo {
 	width: 7%;
@@ -160,7 +173,7 @@ figure {
 	}
 }
 
-.imagens-corpo{
+.imagens-corpo {
 	width: 95%;
 	height: 90%;
 }
@@ -257,7 +270,8 @@ figure {
 /*controle de girds*/
 #grid-conteudo {
 	border-radius: 20px;
-	background-color: #dcdcdc;
+	background-color: #fff;
+	color: #000;
 }
 
 .grid {
@@ -297,9 +311,9 @@ figure {
 }
 
 @media(min-width: 300px) and (max-width:820px) {
-	.grid-corpo{
+	.grid-corpo {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)) ;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
 		/* nesse formato serve para colcoar do lado do item desejado*/
 		grid-gap: 1px;
 		/*Grid-gap serve para separar as grid como um espaço*/
@@ -317,6 +331,8 @@ figure {
 }
 
 /* Aqui finalisa a configuração de grids para o topo */
+
+/*aqui inicia a configuração de formulario*/
 
 #formulario {
 	background-color: #dcdcdc;
@@ -377,7 +393,7 @@ input {
 	padding-top: 15rem;
 }
 
-@media(min-width: 300px) and (max-width:850px){
+@media(min-width: 300px) and (max-width:850px) {
 	.conteudo-corpo {
 		font-size: 1.6rem;
 		background: linear-gradient(to right, #0000CD, #00BFFF);
@@ -386,7 +402,7 @@ input {
 		margin: 0 auto;
 		max-width: 100%;
 		padding-top: 8rem;
-}
+	}
 }
 
 
@@ -439,4 +455,10 @@ a:hover {
 		width: 90%;
 		height: 90%;
 	}
+}
+
+li {
+	text-align: left;
+	font-weight: bold;
+	margin-left: 3rem;
 }
