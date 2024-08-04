@@ -195,7 +195,7 @@ figure {
 .menu-topo {
 	padding: 1px;
 	text-align: justify;
-	margin-left: 18rem;
+	margin-left: 15rem;
 }
 
 @media(min-width: 300px) and (max-width:850px) {
