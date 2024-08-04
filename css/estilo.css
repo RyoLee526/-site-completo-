@@ -109,7 +109,6 @@ footer {
 	max-width: 90%;
 	padding-top: 3rem;
 	border-radius: 20px;
-	border: 5px solid;
 	/*para adicionar uma borda*/
 }
 
@@ -194,7 +193,7 @@ figure {
 }
 
 .menu-topo {
-	padding: 5px;
+	padding: 1px;
 	text-align: justify;
 	margin-left: 18rem;
 }
@@ -281,6 +280,7 @@ figure {
 	width: 30%;
 	height: 20%;
 }
+
 
 #compras-texto {
 	text-align: center;
@@ -454,7 +454,7 @@ input {
 	}
 }
 
-.botao-acao-cursos{
+.botao-acao-cursos {
 	border: 2px solid black;
 	color: black;
 	background-color: #00BFFF;
@@ -495,7 +495,7 @@ a:hover {
 	/* para fazer alteraçães nos links */
 	color: #ffffff;
 	/* altera a cor da escrita */
-	border-bottom: solid #fff;
+	/* border: solid #fff; */
 	/*para definiar onde fica a border, no caso bottom, pq esta em baixo */
 }
 
@@ -507,8 +507,8 @@ a:hover {
 	padding-top: 20rem;
 }
 
-#professor{
-	padding-top: 50rem;
+#prof {
+	padding-top: 1rem;
 }
 
 /* @media para fazer o vidoe ficar responsivo no celular */
@@ -541,4 +541,17 @@ li {
 	text-shadow: 1px 1px #000;
 	background: linear-gradient(to right, #6f00ff, #000000);
 	border-radius: 20px;
+}
+
+.personalizacao{
+	background-color: #ffd900;
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding: 1rem;
+	width: 60%;
+	border-radius: 20px;
+	color: #000;
+	margin: 0 auto;
+	text-shadow: none;
 }
